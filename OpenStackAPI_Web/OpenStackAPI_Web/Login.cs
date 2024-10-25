@@ -27,7 +27,7 @@ namespace OpenStackAPI_Web
 
                 if (!string.IsNullOrEmpty(token))
                 {
-                    MainApplication mainApplication = new MainApplication();
+                    MainApplication mainApplication = new MainApplication(token);
                     var formattedResponse = JsonConvert.SerializeObject(JsonConvert.DeserializeObject(responseContent), Formatting.Indented);
                     // Ghi log vào MainApplication
                     mainApplication.LogEvent($"Đăng nhập thành công với token: {token}");

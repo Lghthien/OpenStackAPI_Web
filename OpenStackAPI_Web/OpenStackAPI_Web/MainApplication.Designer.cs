@@ -29,6 +29,9 @@
         private void InitializeComponent()
         {
             this.groupBox1 = new System.Windows.Forms.GroupBox();
+            this.CreatePortBt = new System.Windows.Forms.Button();
+            this.CreateSubnetBt = new System.Windows.Forms.Button();
+            this.CreateNetworkBt = new System.Windows.Forms.Button();
             this.portaddressTb = new System.Windows.Forms.TextBox();
             this.networkaddressTb = new System.Windows.Forms.TextBox();
             this.subnetnameTb = new System.Windows.Forms.TextBox();
@@ -38,24 +41,25 @@
             this.label2 = new System.Windows.Forms.Label();
             this.label1 = new System.Windows.Forms.Label();
             this.groupBox2 = new System.Windows.Forms.GroupBox();
-            this.networkidTb = new System.Windows.Forms.TextBox();
-            this.NameTb = new System.Windows.Forms.TextBox();
-            this.FavorsTb = new System.Windows.Forms.TextBox();
-            this.ImageTb = new System.Windows.Forms.TextBox();
+            this.createinstanceBt = new System.Windows.Forms.Button();
+            this.networkIdInstanceTb = new System.Windows.Forms.TextBox();
+            this.NameInstanceTb = new System.Windows.Forms.TextBox();
+            this.FavorsInstanceTb = new System.Windows.Forms.TextBox();
+            this.ImageInstanceTb = new System.Windows.Forms.TextBox();
             this.label8 = new System.Windows.Forms.Label();
             this.label7 = new System.Windows.Forms.Label();
             this.label6 = new System.Windows.Forms.Label();
             this.label5 = new System.Windows.Forms.Label();
             this.groupBox3 = new System.Windows.Forms.GroupBox();
+            this.eventlogTb = new System.Windows.Forms.TextBox();
             this.groupBox4 = new System.Windows.Forms.GroupBox();
+            this.flavorslistBt = new System.Windows.Forms.Button();
+            this.keypairlistBt = new System.Windows.Forms.Button();
+            this.imagelistBt = new System.Windows.Forms.Button();
             this.label10 = new System.Windows.Forms.Label();
             this.label11 = new System.Windows.Forms.Label();
-            this.createnetworkBt = new System.Windows.Forms.Button();
-            this.imagelistBt = new System.Windows.Forms.Button();
-            this.createinstanceBt = new System.Windows.Forms.Button();
-            this.keypairlistBt = new System.Windows.Forms.Button();
-            this.flavorslistBt = new System.Windows.Forms.Button();
-            this.eventlogTb = new System.Windows.Forms.TextBox();
+            this.label9 = new System.Windows.Forms.Label();
+            this.PortInstanceTb = new System.Windows.Forms.TextBox();
             this.groupBox1.SuspendLayout();
             this.groupBox2.SuspendLayout();
             this.groupBox3.SuspendLayout();
@@ -64,7 +68,9 @@
             // 
             // groupBox1
             // 
-            this.groupBox1.Controls.Add(this.createnetworkBt);
+            this.groupBox1.Controls.Add(this.CreatePortBt);
+            this.groupBox1.Controls.Add(this.CreateSubnetBt);
+            this.groupBox1.Controls.Add(this.CreateNetworkBt);
             this.groupBox1.Controls.Add(this.portaddressTb);
             this.groupBox1.Controls.Add(this.networkaddressTb);
             this.groupBox1.Controls.Add(this.subnetnameTb);
@@ -80,30 +86,60 @@
             this.groupBox1.TabStop = false;
             this.groupBox1.Text = "Network";
             // 
+            // CreatePortBt
+            // 
+            this.CreatePortBt.Location = new System.Drawing.Point(239, 155);
+            this.CreatePortBt.Name = "CreatePortBt";
+            this.CreatePortBt.Size = new System.Drawing.Size(100, 46);
+            this.CreatePortBt.TabIndex = 16;
+            this.CreatePortBt.Text = "Create Port";
+            this.CreatePortBt.UseVisualStyleBackColor = true;
+            this.CreatePortBt.Click += new System.EventHandler(this.CreatePortBt_Click);
+            // 
+            // CreateSubnetBt
+            // 
+            this.CreateSubnetBt.Location = new System.Drawing.Point(124, 155);
+            this.CreateSubnetBt.Name = "CreateSubnetBt";
+            this.CreateSubnetBt.Size = new System.Drawing.Size(100, 46);
+            this.CreateSubnetBt.TabIndex = 15;
+            this.CreateSubnetBt.Text = "Create Subnet";
+            this.CreateSubnetBt.UseVisualStyleBackColor = true;
+            this.CreateSubnetBt.Click += new System.EventHandler(this.CreateSubnetBt_Click);
+            // 
+            // CreateNetworkBt
+            // 
+            this.CreateNetworkBt.Location = new System.Drawing.Point(9, 155);
+            this.CreateNetworkBt.Name = "CreateNetworkBt";
+            this.CreateNetworkBt.Size = new System.Drawing.Size(100, 46);
+            this.CreateNetworkBt.TabIndex = 14;
+            this.CreateNetworkBt.Text = "Create Network";
+            this.CreateNetworkBt.UseVisualStyleBackColor = true;
+            this.CreateNetworkBt.Click += new System.EventHandler(this.CreateNetworkBt_Click_1);
+            // 
             // portaddressTb
             // 
-            this.portaddressTb.Location = new System.Drawing.Point(124, 115);
+            this.portaddressTb.Location = new System.Drawing.Point(158, 118);
             this.portaddressTb.Name = "portaddressTb";
             this.portaddressTb.Size = new System.Drawing.Size(191, 22);
             this.portaddressTb.TabIndex = 6;
             // 
             // networkaddressTb
             // 
-            this.networkaddressTb.Location = new System.Drawing.Point(124, 83);
+            this.networkaddressTb.Location = new System.Drawing.Point(158, 83);
             this.networkaddressTb.Name = "networkaddressTb";
             this.networkaddressTb.Size = new System.Drawing.Size(191, 22);
             this.networkaddressTb.TabIndex = 5;
             // 
             // subnetnameTb
             // 
-            this.subnetnameTb.Location = new System.Drawing.Point(124, 49);
+            this.subnetnameTb.Location = new System.Drawing.Point(158, 49);
             this.subnetnameTb.Name = "subnetnameTb";
             this.subnetnameTb.Size = new System.Drawing.Size(191, 22);
             this.subnetnameTb.TabIndex = 4;
             // 
             // networknameTb
             // 
-            this.networknameTb.Location = new System.Drawing.Point(124, 15);
+            this.networknameTb.Location = new System.Drawing.Point(158, 21);
             this.networknameTb.Name = "networknameTb";
             this.networknameTb.Size = new System.Drawing.Size(191, 22);
             this.networknameTb.TabIndex = 0;
@@ -122,35 +158,37 @@
             this.label3.AutoSize = true;
             this.label3.Location = new System.Drawing.Point(6, 83);
             this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(112, 16);
+            this.label3.Size = new System.Drawing.Size(138, 16);
             this.label3.TabIndex = 2;
-            this.label3.Text = "Network address:";
+            this.label3.Text = "Network address/cidr:";
             // 
             // label2
             // 
             this.label2.AutoSize = true;
             this.label2.Location = new System.Drawing.Point(6, 49);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(95, 16);
+            this.label2.Size = new System.Drawing.Size(112, 16);
             this.label2.TabIndex = 1;
-            this.label2.Text = "Subnet name:  ";
+            this.label2.Text = "Subnet name/ID:  ";
             // 
             // label1
             // 
             this.label1.AutoSize = true;
             this.label1.Location = new System.Drawing.Point(6, 18);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(102, 16);
+            this.label1.Size = new System.Drawing.Size(119, 16);
             this.label1.TabIndex = 0;
-            this.label1.Text = "Network Name: ";
+            this.label1.Text = "Network Name/ID: ";
             // 
             // groupBox2
             // 
+            this.groupBox2.Controls.Add(this.PortInstanceTb);
+            this.groupBox2.Controls.Add(this.label9);
             this.groupBox2.Controls.Add(this.createinstanceBt);
-            this.groupBox2.Controls.Add(this.networkidTb);
-            this.groupBox2.Controls.Add(this.NameTb);
-            this.groupBox2.Controls.Add(this.FavorsTb);
-            this.groupBox2.Controls.Add(this.ImageTb);
+            this.groupBox2.Controls.Add(this.networkIdInstanceTb);
+            this.groupBox2.Controls.Add(this.NameInstanceTb);
+            this.groupBox2.Controls.Add(this.FavorsInstanceTb);
+            this.groupBox2.Controls.Add(this.ImageInstanceTb);
             this.groupBox2.Controls.Add(this.label8);
             this.groupBox2.Controls.Add(this.label7);
             this.groupBox2.Controls.Add(this.label6);
@@ -162,33 +200,43 @@
             this.groupBox2.TabStop = false;
             this.groupBox2.Text = "Instance";
             // 
-            // networkidTb
+            // createinstanceBt
             // 
-            this.networkidTb.Location = new System.Drawing.Point(124, 133);
-            this.networkidTb.Name = "networkidTb";
-            this.networkidTb.Size = new System.Drawing.Size(191, 22);
-            this.networkidTb.TabIndex = 10;
+            this.createinstanceBt.Location = new System.Drawing.Point(19, 181);
+            this.createinstanceBt.Name = "createinstanceBt";
+            this.createinstanceBt.Size = new System.Drawing.Size(315, 26);
+            this.createinstanceBt.TabIndex = 12;
+            this.createinstanceBt.Text = "Create";
+            this.createinstanceBt.UseVisualStyleBackColor = true;
+            this.createinstanceBt.Click += new System.EventHandler(this.createinstanceBt_Click);
             // 
-            // NameTb
+            // networkIdInstanceTb
             // 
-            this.NameTb.Location = new System.Drawing.Point(124, 101);
-            this.NameTb.Name = "NameTb";
-            this.NameTb.Size = new System.Drawing.Size(191, 22);
-            this.NameTb.TabIndex = 9;
+            this.networkIdInstanceTb.Location = new System.Drawing.Point(124, 133);
+            this.networkIdInstanceTb.Name = "networkIdInstanceTb";
+            this.networkIdInstanceTb.Size = new System.Drawing.Size(191, 22);
+            this.networkIdInstanceTb.TabIndex = 10;
             // 
-            // FavorsTb
+            // NameInstanceTb
             // 
-            this.FavorsTb.Location = new System.Drawing.Point(124, 66);
-            this.FavorsTb.Name = "FavorsTb";
-            this.FavorsTb.Size = new System.Drawing.Size(191, 22);
-            this.FavorsTb.TabIndex = 8;
+            this.NameInstanceTb.Location = new System.Drawing.Point(124, 101);
+            this.NameInstanceTb.Name = "NameInstanceTb";
+            this.NameInstanceTb.Size = new System.Drawing.Size(191, 22);
+            this.NameInstanceTb.TabIndex = 9;
             // 
-            // ImageTb
+            // FavorsInstanceTb
             // 
-            this.ImageTb.Location = new System.Drawing.Point(124, 33);
-            this.ImageTb.Name = "ImageTb";
-            this.ImageTb.Size = new System.Drawing.Size(191, 22);
-            this.ImageTb.TabIndex = 7;
+            this.FavorsInstanceTb.Location = new System.Drawing.Point(124, 66);
+            this.FavorsInstanceTb.Name = "FavorsInstanceTb";
+            this.FavorsInstanceTb.Size = new System.Drawing.Size(191, 22);
+            this.FavorsInstanceTb.TabIndex = 8;
+            // 
+            // ImageInstanceTb
+            // 
+            this.ImageInstanceTb.Location = new System.Drawing.Point(124, 33);
+            this.ImageInstanceTb.Name = "ImageInstanceTb";
+            this.ImageInstanceTb.Size = new System.Drawing.Size(191, 22);
+            this.ImageInstanceTb.TabIndex = 7;
             // 
             // label8
             // 
@@ -236,6 +284,15 @@
             this.groupBox3.TabStop = false;
             this.groupBox3.Text = "Log";
             // 
+            // eventlogTb
+            // 
+            this.eventlogTb.Location = new System.Drawing.Point(3, 18);
+            this.eventlogTb.Multiline = true;
+            this.eventlogTb.Name = "eventlogTb";
+            this.eventlogTb.ReadOnly = true;
+            this.eventlogTb.Size = new System.Drawing.Size(572, 484);
+            this.eventlogTb.TabIndex = 0;
+            // 
             // groupBox4
             // 
             this.groupBox4.Controls.Add(this.flavorslistBt);
@@ -249,6 +306,36 @@
             this.groupBox4.TabIndex = 8;
             this.groupBox4.TabStop = false;
             this.groupBox4.Text = "List";
+            // 
+            // flavorslistBt
+            // 
+            this.flavorslistBt.Location = new System.Drawing.Point(239, 14);
+            this.flavorslistBt.Name = "flavorslistBt";
+            this.flavorslistBt.Size = new System.Drawing.Size(95, 42);
+            this.flavorslistBt.TabIndex = 13;
+            this.flavorslistBt.Text = "List flavors";
+            this.flavorslistBt.UseVisualStyleBackColor = true;
+            this.flavorslistBt.Click += new System.EventHandler(this.flavorslistBt_Click);
+            // 
+            // keypairlistBt
+            // 
+            this.keypairlistBt.Location = new System.Drawing.Point(124, 14);
+            this.keypairlistBt.Name = "keypairlistBt";
+            this.keypairlistBt.Size = new System.Drawing.Size(95, 42);
+            this.keypairlistBt.TabIndex = 12;
+            this.keypairlistBt.Text = "List keypair";
+            this.keypairlistBt.UseVisualStyleBackColor = true;
+            this.keypairlistBt.Click += new System.EventHandler(this.keypairlistBt_Click);
+            // 
+            // imagelistBt
+            // 
+            this.imagelistBt.Location = new System.Drawing.Point(9, 14);
+            this.imagelistBt.Name = "imagelistBt";
+            this.imagelistBt.Size = new System.Drawing.Size(95, 42);
+            this.imagelistBt.TabIndex = 11;
+            this.imagelistBt.Text = "List Images";
+            this.imagelistBt.UseVisualStyleBackColor = true;
+            this.imagelistBt.Click += new System.EventHandler(this.imagelistBt_Click);
             // 
             // label10
             // 
@@ -268,60 +355,21 @@
             this.label11.TabIndex = 5;
             this.label11.Text = "Network ID: ";
             // 
-            // createnetworkBt
+            // label9
             // 
-            this.createnetworkBt.Location = new System.Drawing.Point(19, 156);
-            this.createnetworkBt.Name = "createnetworkBt";
-            this.createnetworkBt.Size = new System.Drawing.Size(315, 42);
-            this.createnetworkBt.TabIndex = 10;
-            this.createnetworkBt.Text = "Create";
-            this.createnetworkBt.UseVisualStyleBackColor = true;
+            this.label9.AutoSize = true;
+            this.label9.Location = new System.Drawing.Point(16, 162);
+            this.label9.Name = "label9";
+            this.label9.Size = new System.Drawing.Size(87, 16);
+            this.label9.TabIndex = 17;
+            this.label9.Text = "Port address:";
             // 
-            // imagelistBt
+            // PortInstanceTb
             // 
-            this.imagelistBt.Location = new System.Drawing.Point(9, 14);
-            this.imagelistBt.Name = "imagelistBt";
-            this.imagelistBt.Size = new System.Drawing.Size(95, 42);
-            this.imagelistBt.TabIndex = 11;
-            this.imagelistBt.Text = "List Images";
-            this.imagelistBt.UseVisualStyleBackColor = true;
-            // 
-            // createinstanceBt
-            // 
-            this.createinstanceBt.Location = new System.Drawing.Point(19, 161);
-            this.createinstanceBt.Name = "createinstanceBt";
-            this.createinstanceBt.Size = new System.Drawing.Size(315, 46);
-            this.createinstanceBt.TabIndex = 12;
-            this.createinstanceBt.Text = "Create";
-            this.createinstanceBt.UseVisualStyleBackColor = true;
-            // 
-            // keypairlistBt
-            // 
-            this.keypairlistBt.Location = new System.Drawing.Point(124, 14);
-            this.keypairlistBt.Name = "keypairlistBt";
-            this.keypairlistBt.Size = new System.Drawing.Size(95, 42);
-            this.keypairlistBt.TabIndex = 12;
-            this.keypairlistBt.Text = "List keypair";
-            this.keypairlistBt.UseVisualStyleBackColor = true;
-            // 
-            // flavorslistBt
-            // 
-            this.flavorslistBt.Location = new System.Drawing.Point(239, 14);
-            this.flavorslistBt.Name = "flavorslistBt";
-            this.flavorslistBt.Size = new System.Drawing.Size(95, 42);
-            this.flavorslistBt.TabIndex = 13;
-            this.flavorslistBt.Text = "List flavors";
-            this.flavorslistBt.UseVisualStyleBackColor = true;
-            // 
-            // eventlogTb
-            // 
-            this.eventlogTb.Enabled = false;
-            this.eventlogTb.Location = new System.Drawing.Point(3, 18);
-            this.eventlogTb.Multiline = true;
-            this.eventlogTb.Name = "eventlogTb";
-            this.eventlogTb.ReadOnly = true;
-            this.eventlogTb.Size = new System.Drawing.Size(572, 484);
-            this.eventlogTb.TabIndex = 0;
+            this.PortInstanceTb.Location = new System.Drawing.Point(124, 161);
+            this.PortInstanceTb.Name = "PortInstanceTb";
+            this.PortInstanceTb.Size = new System.Drawing.Size(191, 22);
+            this.PortInstanceTb.TabIndex = 18;
             // 
             // MainApplication
             // 
@@ -359,7 +407,7 @@
         private System.Windows.Forms.TextBox networkaddressTb;
         private System.Windows.Forms.TextBox subnetnameTb;
         private System.Windows.Forms.TextBox networknameTb;
-        private System.Windows.Forms.TextBox ImageTb;
+        private System.Windows.Forms.TextBox ImageInstanceTb;
         private System.Windows.Forms.Label label8;
         private System.Windows.Forms.Label label7;
         private System.Windows.Forms.Label label6;
@@ -367,14 +415,18 @@
         private System.Windows.Forms.GroupBox groupBox4;
         private System.Windows.Forms.Label label10;
         private System.Windows.Forms.Label label11;
-        private System.Windows.Forms.TextBox networkidTb;
-        private System.Windows.Forms.TextBox NameTb;
-        private System.Windows.Forms.TextBox FavorsTb;
+        private System.Windows.Forms.TextBox networkIdInstanceTb;
+        private System.Windows.Forms.TextBox NameInstanceTb;
+        private System.Windows.Forms.TextBox FavorsInstanceTb;
         private System.Windows.Forms.Button imagelistBt;
-        private System.Windows.Forms.Button createnetworkBt;
         private System.Windows.Forms.Button createinstanceBt;
         private System.Windows.Forms.Button flavorslistBt;
         private System.Windows.Forms.Button keypairlistBt;
         private System.Windows.Forms.TextBox eventlogTb;
+        private System.Windows.Forms.Button CreateNetworkBt;
+        private System.Windows.Forms.Button CreatePortBt;
+        private System.Windows.Forms.Button CreateSubnetBt;
+        private System.Windows.Forms.TextBox PortInstanceTb;
+        private System.Windows.Forms.Label label9;
     }
 }
