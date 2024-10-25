@@ -41,6 +41,8 @@
             this.label2 = new System.Windows.Forms.Label();
             this.label1 = new System.Windows.Forms.Label();
             this.groupBox2 = new System.Windows.Forms.GroupBox();
+            this.PortInstanceTb = new System.Windows.Forms.TextBox();
+            this.label9 = new System.Windows.Forms.Label();
             this.createinstanceBt = new System.Windows.Forms.Button();
             this.networkIdInstanceTb = new System.Windows.Forms.TextBox();
             this.NameInstanceTb = new System.Windows.Forms.TextBox();
@@ -58,8 +60,6 @@
             this.imagelistBt = new System.Windows.Forms.Button();
             this.label10 = new System.Windows.Forms.Label();
             this.label11 = new System.Windows.Forms.Label();
-            this.label9 = new System.Windows.Forms.Label();
-            this.PortInstanceTb = new System.Windows.Forms.TextBox();
             this.groupBox1.SuspendLayout();
             this.groupBox2.SuspendLayout();
             this.groupBox3.SuspendLayout();
@@ -200,9 +200,25 @@
             this.groupBox2.TabStop = false;
             this.groupBox2.Text = "Instance";
             // 
+            // PortInstanceTb
+            // 
+            this.PortInstanceTb.Location = new System.Drawing.Point(124, 161);
+            this.PortInstanceTb.Name = "PortInstanceTb";
+            this.PortInstanceTb.Size = new System.Drawing.Size(191, 22);
+            this.PortInstanceTb.TabIndex = 18;
+            // 
+            // label9
+            // 
+            this.label9.AutoSize = true;
+            this.label9.Location = new System.Drawing.Point(16, 162);
+            this.label9.Name = "label9";
+            this.label9.Size = new System.Drawing.Size(87, 16);
+            this.label9.TabIndex = 17;
+            this.label9.Text = "Port address:";
+            // 
             // createinstanceBt
             // 
-            this.createinstanceBt.Location = new System.Drawing.Point(19, 181);
+            this.createinstanceBt.Location = new System.Drawing.Point(19, 187);
             this.createinstanceBt.Name = "createinstanceBt";
             this.createinstanceBt.Size = new System.Drawing.Size(315, 26);
             this.createinstanceBt.TabIndex = 12;
@@ -354,22 +370,6 @@
             this.label11.Size = new System.Drawing.Size(78, 16);
             this.label11.TabIndex = 5;
             this.label11.Text = "Network ID: ";
-            // 
-            // label9
-            // 
-            this.label9.AutoSize = true;
-            this.label9.Location = new System.Drawing.Point(16, 162);
-            this.label9.Name = "label9";
-            this.label9.Size = new System.Drawing.Size(87, 16);
-            this.label9.TabIndex = 17;
-            this.label9.Text = "Port address:";
-            // 
-            // PortInstanceTb
-            // 
-            this.PortInstanceTb.Location = new System.Drawing.Point(124, 161);
-            this.PortInstanceTb.Name = "PortInstanceTb";
-            this.PortInstanceTb.Size = new System.Drawing.Size(191, 22);
-            this.PortInstanceTb.TabIndex = 18;
             // 
             // MainApplication
             // 

@@ -3,24 +3,16 @@
   "WorkspaceRootPath": "L:\\N\u0103m 3\\K\u1EF3 5\\H\u1EC7 t\u00EDnh to\u00E1n ph\u00E2n b\u1ED1\\Th\u1EF1c h\u00E0nh\\OpenStackAPI_Web\\OpenStackAPI_Web\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{0B1624E0-213D-4A67-B6EA-957FABDF98DB}|OpenStackAPI_Web\\OpenStackAPI_Web.csproj|L:\\N\u0103m 3\\K\u1EF3 5\\H\u1EC7 t\u00EDnh to\u00E1n ph\u00E2n b\u1ED1\\Th\u1EF1c h\u00E0nh\\OpenStackAPI_Web\\OpenStackAPI_Web\\openstackapi_web\\mainapplication.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{0B1624E0-213D-4A67-B6EA-957FABDF98DB}|OpenStackAPI_Web\\OpenStackAPI_Web.csproj|l:\\n\u0103m 3\\k\u1EF3 5\\h\u1EC7 t\u00EDnh to\u00E1n ph\u00E2n b\u1ED1\\th\u1EF1c h\u00E0nh\\openstackapi_web\\openstackapi_web\\openstackapi_web\\mainapplication.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{0B1624E0-213D-4A67-B6EA-957FABDF98DB}|OpenStackAPI_Web\\OpenStackAPI_Web.csproj|solutionrelative:openstackapi_web\\mainapplication.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{0B1624E0-213D-4A67-B6EA-957FABDF98DB}|OpenStackAPI_Web\\OpenStackAPI_Web.csproj|L:\\N\u0103m 3\\K\u1EF3 5\\H\u1EC7 t\u00EDnh to\u00E1n ph\u00E2n b\u1ED1\\Th\u1EF1c h\u00E0nh\\OpenStackAPI_Web\\OpenStackAPI_Web\\openstackapi_web\\mainapplication.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{0B1624E0-213D-4A67-B6EA-957FABDF98DB}|OpenStackAPI_Web\\OpenStackAPI_Web.csproj|solutionrelative:openstackapi_web\\mainapplication.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{0B1624E0-213D-4A67-B6EA-957FABDF98DB}|OpenStackAPI_Web\\OpenStackAPI_Web.csproj|l:\\n\u0103m 3\\k\u1EF3 5\\h\u1EC7 t\u00EDnh to\u00E1n ph\u00E2n b\u1ED1\\th\u1EF1c h\u00E0nh\\openstackapi_web\\openstackapi_web\\openstackapi_web\\mainapplication.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "AbsoluteMoniker": "D:0:0:{0B1624E0-213D-4A67-B6EA-957FABDF98DB}|OpenStackAPI_Web\\OpenStackAPI_Web.csproj|L:\\N\u0103m 3\\K\u1EF3 5\\H\u1EC7 t\u00EDnh to\u00E1n ph\u00E2n b\u1ED1\\Th\u1EF1c h\u00E0nh\\OpenStackAPI_Web\\OpenStackAPI_Web\\openstackapi_web\\mainapplication.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{0B1624E0-213D-4A67-B6EA-957FABDF98DB}|OpenStackAPI_Web\\OpenStackAPI_Web.csproj|solutionrelative:openstackapi_web\\mainapplication.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
       "AbsoluteMoniker": "D:0:0:{0B1624E0-213D-4A67-B6EA-957FABDF98DB}|OpenStackAPI_Web\\OpenStackAPI_Web.csproj|L:\\N\u0103m 3\\K\u1EF3 5\\H\u1EC7 t\u00EDnh to\u00E1n ph\u00E2n b\u1ED1\\Th\u1EF1c h\u00E0nh\\OpenStackAPI_Web\\OpenStackAPI_Web\\openstackapi_web\\login.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{0B1624E0-213D-4A67-B6EA-957FABDF98DB}|OpenStackAPI_Web\\OpenStackAPI_Web.csproj|solutionrelative:openstackapi_web\\login.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{0B1624E0-213D-4A67-B6EA-957FABDF98DB}|OpenStackAPI_Web\\OpenStackAPI_Web.csproj|L:\\N\u0103m 3\\K\u1EF3 5\\H\u1EC7 t\u00EDnh to\u00E1n ph\u00E2n b\u1ED1\\Th\u1EF1c h\u00E0nh\\OpenStackAPI_Web\\OpenStackAPI_Web\\openstackapi_web\\login.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{0B1624E0-213D-4A67-B6EA-957FABDF98DB}|OpenStackAPI_Web\\OpenStackAPI_Web.csproj|solutionrelative:openstackapi_web\\login.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
       "AbsoluteMoniker": "D:0:0:{0B1624E0-213D-4A67-B6EA-957FABDF98DB}|OpenStackAPI_Web\\OpenStackAPI_Web.csproj|L:\\N\u0103m 3\\K\u1EF3 5\\H\u1EC7 t\u00EDnh to\u00E1n ph\u00E2n b\u1ED1\\Th\u1EF1c h\u00E0nh\\OpenStackAPI_Web\\OpenStackAPI_Web\\openstackapi_web\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -38,11 +30,11 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 4,
+          "SelectedChildIndex": 2,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 1,
               "Title": "MainApplication.cs [Design]",
               "DocumentMoniker": "L:\\N\u0103m 3\\K\u1EF3 5\\H\u1EC7 t\u00EDnh to\u00E1n ph\u00E2n b\u1ED1\\Th\u1EF1c h\u00E0nh\\OpenStackAPI_Web\\OpenStackAPI_Web\\OpenStackAPI_Web\\MainApplication.cs",
               "RelativeDocumentMoniker": "OpenStackAPI_Web\\MainApplication.cs",
@@ -55,40 +47,15 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 2,
               "Title": "Login.cs",
               "DocumentMoniker": "L:\\N\u0103m 3\\K\u1EF3 5\\H\u1EC7 t\u00EDnh to\u00E1n ph\u00E2n b\u1ED1\\Th\u1EF1c h\u00E0nh\\OpenStackAPI_Web\\OpenStackAPI_Web\\OpenStackAPI_Web\\Login.cs",
               "RelativeDocumentMoniker": "OpenStackAPI_Web\\Login.cs",
               "ToolTip": "L:\\N\u0103m 3\\K\u1EF3 5\\H\u1EC7 t\u00EDnh to\u00E1n ph\u00E2n b\u1ED1\\Th\u1EF1c h\u00E0nh\\OpenStackAPI_Web\\OpenStackAPI_Web\\OpenStackAPI_Web\\Login.cs",
               "RelativeToolTip": "OpenStackAPI_Web\\Login.cs",
-              "ViewState": "AgIAABAAAAAAAAAAAAAQwGYAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAABIAAAAAAAAAAAAYwGYAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-10-24T14:02:33.12Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "Login.cs [Design]",
-              "DocumentMoniker": "L:\\N\u0103m 3\\K\u1EF3 5\\H\u1EC7 t\u00EDnh to\u00E1n ph\u00E2n b\u1ED1\\Th\u1EF1c h\u00E0nh\\OpenStackAPI_Web\\OpenStackAPI_Web\\OpenStackAPI_Web\\Login.cs",
-              "RelativeDocumentMoniker": "OpenStackAPI_Web\\Login.cs",
-              "ToolTip": "L:\\N\u0103m 3\\K\u1EF3 5\\H\u1EC7 t\u00EDnh to\u00E1n ph\u00E2n b\u1ED1\\Th\u1EF1c h\u00E0nh\\OpenStackAPI_Web\\OpenStackAPI_Web\\OpenStackAPI_Web\\Login.cs [Design]",
-              "RelativeToolTip": "OpenStackAPI_Web\\Login.cs [Design]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-24T05:23:07.15Z",
-              "EditorCaption": " [Design]"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "MainApplication.Designer.cs",
-              "DocumentMoniker": "L:\\N\u0103m 3\\K\u1EF3 5\\H\u1EC7 t\u00EDnh to\u00E1n ph\u00E2n b\u1ED1\\Th\u1EF1c h\u00E0nh\\OpenStackAPI_Web\\OpenStackAPI_Web\\OpenStackAPI_Web\\MainApplication.Designer.cs",
-              "RelativeDocumentMoniker": "OpenStackAPI_Web\\MainApplication.Designer.cs",
-              "ToolTip": "L:\\N\u0103m 3\\K\u1EF3 5\\H\u1EC7 t\u00EDnh to\u00E1n ph\u00E2n b\u1ED1\\Th\u1EF1c h\u00E0nh\\OpenStackAPI_Web\\OpenStackAPI_Web\\OpenStackAPI_Web\\MainApplication.Designer.cs",
-              "RelativeToolTip": "OpenStackAPI_Web\\MainApplication.Designer.cs",
-              "ViewState": "AgIAAMcAAAAAAAAAAADgv9EAAABBAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-24T06:52:53.105Z",
               "EditorCaption": ""
             },
             {
@@ -99,14 +66,14 @@
               "RelativeDocumentMoniker": "OpenStackAPI_Web\\MainApplication.cs",
               "ToolTip": "L:\\N\u0103m 3\\K\u1EF3 5\\H\u1EC7 t\u00EDnh to\u00E1n ph\u00E2n b\u1ED1\\Th\u1EF1c h\u00E0nh\\OpenStackAPI_Web\\OpenStackAPI_Web\\OpenStackAPI_Web\\MainApplication.cs",
               "RelativeToolTip": "OpenStackAPI_Web\\MainApplication.cs",
-              "ViewState": "AgIAAMIAAAAAAAAAAAAjwM0AAAAZAAAAAAAAAA==",
+              "ViewState": "AgIAACYAAAAAAAAAAAApwOMAAABDAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-10-24T06:52:44.074Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 3,
               "Title": "Program.cs",
               "DocumentMoniker": "L:\\N\u0103m 3\\K\u1EF3 5\\H\u1EC7 t\u00EDnh to\u00E1n ph\u00E2n b\u1ED1\\Th\u1EF1c h\u00E0nh\\OpenStackAPI_Web\\OpenStackAPI_Web\\OpenStackAPI_Web\\Program.cs",
               "RelativeDocumentMoniker": "OpenStackAPI_Web\\Program.cs",
@@ -114,12 +81,11 @@
               "RelativeToolTip": "OpenStackAPI_Web\\Program.cs",
               "ViewState": "AgIAAAQAAAAAAAAAAAAqwBYAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-24T05:31:18.233Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-10-24T05:31:18.233Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 4,
               "Title": "Login.Designer.cs",
               "DocumentMoniker": "L:\\N\u0103m 3\\K\u1EF3 5\\H\u1EC7 t\u00EDnh to\u00E1n ph\u00E2n b\u1ED1\\Th\u1EF1c h\u00E0nh\\OpenStackAPI_Web\\OpenStackAPI_Web\\OpenStackAPI_Web\\Login.Designer.cs",
               "RelativeDocumentMoniker": "OpenStackAPI_Web\\Login.Designer.cs",
